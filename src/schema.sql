@@ -1,5 +1,4 @@
-#tämä alla oleva vain esimerkki
-CREATE TABLE todos (
+CREATE TABLE viitteet (
   id INTEGER PRIMARY KEY AUTOINCREMENT,
   content TEXT NOT NULL,
   done BOOLEAN DEFAULT FALSE
