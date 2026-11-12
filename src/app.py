@@ -4,8 +4,7 @@ from config import app, test_env
 
 @app.route("/")
 def index():
-    return "<p>Tähän tulee meiän sovellus!</p>"
-    #return render_template("index.html")
+    return render_template("index.html")
 
 #tämä reitti on testausta varten :)
 if test_env:
