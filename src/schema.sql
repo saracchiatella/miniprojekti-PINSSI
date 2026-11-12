@@ -1,0 +1,6 @@
+#tämä alla oleva vain esimerkki
+CREATE TABLE todos (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  content TEXT NOT NULL,
+  done BOOLEAN DEFAULT FALSE
+)
